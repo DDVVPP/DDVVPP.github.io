@@ -1,0 +1,90 @@
+/* Write your CSS code in this file */
+.main {
+    color: rgb(255, 110, 110);
+    background-color: rgb(201, 228, 236);
+    /* font-weight: lighter; */
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 50px;
+}
+h1 {
+    color: rgb(105, 105, 105);
+    text-transform: uppercase;
+    font-family: 'Gill Sans', sans-serif;
+    padding: 0px, 5px, 20px, 5px;
+}
+#subtitle {
+    color: rgb(97, 146, 253);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding: 50px, 5px, 0px, 5px;
+}
+
+.guess {
+    display: inline;
+    font-size: 32px;
+    font-family: sans-serif;
+    border: 2px solid grey;
+    border-radius: 20%;
+    padding: 5px 15px;
+    margin: 10px;
+}
+
+ul {
+    list-style: circle;
+}
+
+#guess-feedback {
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: lighter;
+    /* font-family: "Source Sans Pro", "Arial", sans-serif; */
+    text-transform: lowercase;
+    padding: 30px, 0px, 0px, 0px;
+
+}
+
+#hint-feedback {
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: lighter;
+    /* font-family: "Source Sans Pro", "Arial", sans-serif; */
+    text-transform: lowercase;
+    padding: 30px, 0px, 0px, 0px;
+
+}
+
+#player-input {
+    font-size: 12px;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#submit-text-btn {
+    color: rgb(62, 90, 126);
+    font-size: 12px;
+    border-radius: 8px;
+    box-shadow: 3px 3px rgb(152, 187, 207);
+    padding: 10px;
+    margin: 20px;
+}
+
+#get-hint {
+    color: rgb(62, 90, 126);
+    font-size: 12px;
+    border-radius: 8px;
+    box-shadow: 3px 3px rgb(152, 187, 207);
+    padding: 10px;
+    margin: 20px;
+}
+
+#new-game {
+    color: rgb(62, 90, 126);
+    font-size: 12px;
+    border-radius: 8px;
+    box-shadow: 3px 3px rgb(152, 187, 207);
+    padding: 10px;
+    margin: 20px;
+}
